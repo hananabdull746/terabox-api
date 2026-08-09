@@ -1,0 +1,8 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+gunicorn==23.0.0
+requests==2.32.4
+beautifulsoup4==4.13.4
+urllib3==2.5.0
+slowapi==0.1.9
+pydantic==2.11.7
