@@ -82,10 +82,7 @@ async def unhandled_exception_handler(_: Request, exc: Exception):
     return JSONResponse(status_code=500, content={"error": "Internal server error."})
 
 app.state.limiter = limiter
-app.add_exception_handler(
-    RateLimitExceeded,
-    _rate_limit_exceeded_handler
-)
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # ============================================================
 # CORS
