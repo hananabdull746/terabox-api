@@ -5,4 +5,4 @@ requests==2.32.4
 beautifulsoup4==4.13.4
 urllib3==2.2.3
 slowapi==0.1.9
-pydantic==2.8.2
+pydantic==1.10.21
